@@ -1,0 +1,22 @@
+{
+  "name": "bowling",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "jasmine": "^2.8.0"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/G9A2HvK9/bowling.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/G9A2HvK9/bowling/issues"
+  },
+  "homepage": "https://github.com/G9A2HvK9/bowling#readme"
+}
