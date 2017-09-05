@@ -21,6 +21,19 @@ describe("Bowling", function(){
     game.recordRoll(10);
   }
 
+  it("instantiates with a rolls array, which is empty", function(){
+    expect(game.rolls).toEqual([])
+  });
+
+  it("instantiates with a currentRoll which is 0", function(){
+    expect(game.currentRoll).toEqual(0)
+  });
+
+  it("updates the rolls array when recording a roll with the #recordRoll() function", function(){
+    game.recordRoll(5);
+    expect(game.rolls[0]).toEqual(5)
+  });
+
   it("records a 0 pin game", function(){
     playRolls(20, 0);
     expect(game.calculateScore()).toEqual(0);
