@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/G9A2HvK9/bowling/issues"
   },
-  "homepage": "https://github.com/G9A2HvK9/bowling#readme"
+  "homepage": "https://github.com/G9A2HvK9/bowling#readme",
+  "devDependencies": {
+    "jasmine-console-reporter": "^2.0.1"
+  }
 }
